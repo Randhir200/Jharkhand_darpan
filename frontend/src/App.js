@@ -14,7 +14,8 @@ function App() {
         Remove
       </button>
       <p>{state.amount}</p>
-      {/* <Navbar/> */}
+<p>{state.amount}</p>
+        <Navbar/>
     </div>
   );
 }

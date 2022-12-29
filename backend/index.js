@@ -5,6 +5,7 @@ const routes = require('./routes/index');
 const helemt = require('helmet');
 require('dotenv').config()
 
+app.use(helemt());
 app.use(express.json());
 app.use('/', routes)
 
